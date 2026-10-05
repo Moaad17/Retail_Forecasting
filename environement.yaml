@@ -1,0 +1,12 @@
+name: walmart-env
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - scikit-learn
+      - xgboost
+      - pyarrow
+      - mlflow
